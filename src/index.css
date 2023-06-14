@@ -44,7 +44,7 @@ header {
 }
 
 .menu-items {
-  position: absolute;
+  position: fixed;
   top: 80px;
   right: 0;
   width: 100%;
@@ -70,6 +70,25 @@ header {
 .hidden {
   opacity: 0;
   right: 100%;
+}
+
+@media only screen and (min-width: 900px) {
+  .menu-items {
+    position: static;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: unset;
+    height: unset;
+    right: unset;
+    opacity: 1;
+    padding-top: 0;
+    background-color: #fafafa;
+  }
+
+  .menu-items a {
+    color: #383641;
+  }
 }
 
 /* home-page */
@@ -112,6 +131,29 @@ header {
   gap: 20px;
 }
 
+@media only screen and (min-width: 900px) {
+  .home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+  }
+  .home-hero-container {
+    margin-top: 0;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: space-between;
+    gap: 20px;
+    /* align-items: center; */
+    max-width: 600px;
+  }
+
+  .home-image-container img {
+    width: 600px;
+  }
+}
+
 /* about page */
 
 /* projects page */
@@ -150,8 +192,20 @@ header {
 /* footer */
 
 .footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding: 20px;
   background-color: #383641;
   color: #fafafa;
   /* height: 100px; */
+}
+
+.footer-container a {
+  color: #fafafa;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
 }
