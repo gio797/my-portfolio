@@ -28,13 +28,15 @@ function Home() {
           </ul>
         </div>
 
-        <div className="home-hero-cta">
-          <Link to="projects">Portfolio</Link>
+        <div>
+          <Link to="projects" className="home-hero-cta">
+            Portfolio
+          </Link>
         </div>
 
         <div className="contact">
           <h2>contact</h2>
-          <p>
+          <p className="contact-text">
             Please reach out if you have any questions! I'm happy to jump on a
             video call. Send me an email at g.muchaidze@yahoo.com or call me
             directly at +995 595228259

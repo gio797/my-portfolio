@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
   const [button, setButton] = useState(true);
   // console.log(showMenu);
+
+  const active = {
+    textDecoration: "underline",
+  };
 
   function showButton() {
     if (innerWidth < 900) {
@@ -25,24 +29,30 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <h1>LOGO</h1>
+        <Link to={"/"}>
+          <h1>GM</h1>
+        </Link>
       </div>
       <nav>
         <ul className={showMenu ? "menu-items" : "menu-items hidden"}>
           <li>
-            <Link to={"/"} onClick={() => setShowMenu(false)}>
+            <NavLink
+              to={"/"}
+              onClick={() => setShowMenu(false)}
+              style={({ isActive }) => (isActive ? active : null)}
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
+
           <li>
-            <Link to={"About"} onClick={() => setShowMenu(false)}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to={"Projects"} onClick={() => setShowMenu(false)}>
+            <NavLink
+              to={"Projects"}
+              onClick={() => setShowMenu(false)}
+              style={({ isActive }) => (isActive ? active : null)}
+            >
               Projects
-            </Link>
+            </NavLink>
           </li>
         </ul>
         {button ? (
