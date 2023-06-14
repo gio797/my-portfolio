@@ -105,10 +105,26 @@ header {
   color: #fafafa;
 }
 
+/* projects page */
+
+.project-wrapper {
+  padding: 20px;
+  flex: 1;
+}
+
+.project {
+  max-width: 400px;
+}
+
+.project-img-wrapper img {
+  width: 100%;
+}
+
 /* footer */
 
 .footer-container {
   padding: 20px;
   background-color: #383641;
   color: #fafafa;
+  /* height: 100px; */
 }
