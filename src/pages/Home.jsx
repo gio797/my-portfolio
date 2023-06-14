@@ -18,8 +18,27 @@ function Home() {
             delightful to use.
           </p>
         </div>
+        <div>
+          <h2>My skills</h2>
+          <ul className="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+          </ul>
+        </div>
+
         <div className="home-hero-cta">
-          <Link to="about">About me</Link>
+          <Link to="projects">Portfolio</Link>
+        </div>
+
+        <div className="contact">
+          <h2>contact</h2>
+          <p>
+            Please reach out if you have any questions! I'm happy to jump on a
+            video call. Send me an email at g.muchaidze@yahoo.com or call me
+            directly at +995 595228259
+          </p>
         </div>
       </div>
     </div>

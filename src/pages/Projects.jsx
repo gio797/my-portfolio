@@ -19,9 +19,15 @@ function Projects() {
         <div className="project-img-wrapper">
           <img src={img} alt="" />
         </div>
-        <Link to={"https://curious-truffle-09eab6.netlify.app"} target="blank">
-          Project link
-        </Link>
+        <div className="prokect-link">
+          <Link
+            to={"https://curious-truffle-09eab6.netlify.app"}
+            target="blank"
+          >
+            Project link
+          </Link>
+        </div>
+        <hr />
       </div>
 
       <div className="project">
@@ -35,9 +41,12 @@ function Projects() {
         <div className="project-img-wrapper">
           <img src={img2} alt="" />
         </div>
-        <Link to={"https://superb-druid-9d3988.netlify.app"} target="blank">
-          Project link
-        </Link>
+        <div className="prokect-link">
+          <Link to={"https://superb-druid-9d3988.netlify.app"} target="blank">
+            Project link
+          </Link>
+        </div>
+        <hr />
       </div>
 
       <div className="project">
@@ -51,9 +60,15 @@ function Projects() {
         <div className="project-img-wrapper">
           <img src={img3} alt="" />
         </div>
-        <Link to={"https://gorgeous-cobbler-04f350.netlify.app"} target="blank">
-          Project link
-        </Link>
+        <div className="prokect-link">
+          <Link
+            to={"https://gorgeous-cobbler-04f350.netlify.app"}
+            target="blank"
+          >
+            Project link
+          </Link>
+        </div>
+        <hr />
       </div>
 
       <div className="project">
@@ -67,12 +82,14 @@ function Projects() {
         <div className="project-img-wrapper">
           <img src={img4} alt="" />
         </div>
-        <Link
-          to={"https://verdant-frangollo-9bebd7.netlify.app"}
-          target="blank"
-        >
-          Project link
-        </Link>
+        <div className="prokect-link">
+          <Link
+            to={"https://verdant-frangollo-9bebd7.netlify.app"}
+            target="blank"
+          >
+            Project link
+          </Link>
+        </div>
       </div>
     </div>
   );

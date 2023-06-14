@@ -97,6 +97,7 @@ header {
 
 .home-hero-cta {
   padding: 10px;
+  text-align: center;
   width: 100px;
   background-color: #383641;
 }
@@ -105,19 +106,45 @@ header {
   color: #fafafa;
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* about page */
+
 /* projects page */
 
 .project-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
   padding: 20px;
   flex: 1;
 }
 
 .project {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
   max-width: 400px;
 }
 
 .project-img-wrapper img {
   width: 100%;
+}
+
+.prokect-link {
+  background-color: #383641;
+  width: 100px;
+  padding: 10px;
+}
+
+.prokect-link a {
+  color: #fafafa;
 }
 
 /* footer */
