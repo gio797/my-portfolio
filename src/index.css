@@ -129,7 +129,7 @@ header {
 
 .home-hero-cta:hover {
   background-color: #626269;
-  /* transform: scale(1.1); */
+  transform: scale(1.1);
 }
 
 .skills {
@@ -210,16 +210,17 @@ header {
   width: 100%;
 }
 
-.prokect-link {
+.project-link {
   background-color: #383641;
-  width: 100px;
-  padding: 10px;
+  text-align: center;
+  width: 120px;
+  padding: 14px;
   color: #fafafa;
 }
 
-.prokect-link:hover {
+.project-link:hover {
   background-color: #626269;
-  /* transform: scale(1.1); */
+  transform: scale(1.1);
 }
 
 @media only screen and (min-width: 900px) {
