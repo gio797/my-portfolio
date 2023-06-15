@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Projects() {
   return (
     <div className="project-page-wrapper">
-      <h1>Projects</h1>
+      <h1 className="projects-header">Projects</h1>
       <p>
         Here we have some of my projects, wich include links to the live
         version. you can also find codes for these projects on my github.

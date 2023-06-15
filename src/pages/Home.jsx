@@ -10,12 +10,13 @@ function Home() {
       </div>
 
       <div className="home-hero-container">
-        <h1 className="heading-primary">My name is Giorgi Muchaidze</h1>
+        <h1 className="heading-primary">
+          My name is <span className="name-span">Giorgi</span> Muchaidze
+        </h1>
         <div className="home-hero-info">
           <p className="text-primary">
             I am a frontend developer based in Tbilisi, Georgia. My specialities
-            are <strong>React JS</strong>, and I love building apps that are
-            delightful to use.
+            are <strong>React JS</strong>
           </p>
         </div>
         <div>
