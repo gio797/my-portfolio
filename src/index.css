@@ -242,16 +242,26 @@ header {
   transform: scale(1.1);
 }
 
+.project-img-wrapper {
+  overflow: hidden;
+  background-color: #ffe600;
+}
+
+.project-img {
+  display: block;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+}
+
+.project-img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
 .projects-header {
-  /* position: relative; */
-  /* display: inline-block; */
-  /* justify-self: center; */
-  /* text-align: center; */
   margin: 0 auto;
 }
 
 .projects-header::after {
-  /* position: absolute; */
   content: "";
   display: block;
   width: 100%;
@@ -297,7 +307,6 @@ header {
 
 .footer-container a {
   text-transform: uppercase;
-  /* font-size: 20px; */
   font-weight: bold;
   color: #fafafa;
 }

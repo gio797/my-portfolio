@@ -21,9 +21,14 @@ function Projects() {
             multi-page website'. In this project i have used react router and
             the page is responsive.
           </p>
-          <div className="project-img-wrapper">
-            <img src={img} alt="" />
-          </div>
+          <Link
+            to={"https://curious-truffle-09eab6.netlify.app"}
+            target="blank"
+          >
+            <div className="project-img-wrapper">
+              <img src={img} alt="" className="project-img" />
+            </div>
+          </Link>
           <Link
             className="project-link"
             to={"https://curious-truffle-09eab6.netlify.app"}
@@ -41,9 +46,11 @@ function Projects() {
             app'. In this project i have used react. wepsite is responsive and
             has theme change possibility.
           </p>
-          <div className="project-img-wrapper">
-            <img src={img2} alt="" />
-          </div>
+          <Link to={"https://superb-druid-9d3988.netlify.app"} target="blank">
+            <div className="project-img-wrapper">
+              <img src={img2} alt="" className="project-img" />
+            </div>
+          </Link>
           <Link
             className="project-link"
             to={"https://superb-druid-9d3988.netlify.app"}
@@ -61,9 +68,14 @@ function Projects() {
             with color theme switcher'. In this project I have used react.
             wepsite is responsive and has theme change possibility.
           </p>
-          <div className="project-img-wrapper">
-            <img src={img3} alt="" />
-          </div>
+          <Link
+            to={"https://gorgeous-cobbler-04f350.netlify.app"}
+            target="blank"
+          >
+            <div className="project-img-wrapper">
+              <img src={img3} alt="" className="project-img" />
+            </div>
+          </Link>
           <Link
             className="project-link"
             to={"https://gorgeous-cobbler-04f350.netlify.app"}
@@ -80,9 +92,14 @@ function Projects() {
             This is a trivia website, where you can answer trivia questions. you
             can choose number of questions, category and difficulty.
           </p>
-          <div className="project-img-wrapper">
-            <img src={img4} alt="" />
-          </div>
+          <Link
+            to={"https://verdant-frangollo-9bebd7.netlify.app"}
+            target="blank"
+          >
+            <div className="project-img-wrapper">
+              <img src={img4} alt="" className="project-img" />
+            </div>
+          </Link>
           <Link
             className="project-link"
             to={"https://verdant-frangollo-9bebd7.netlify.app"}
