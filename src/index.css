@@ -278,10 +278,14 @@ header {
 
   .project-wrapper {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1200px;
     flex-direction: row;
     flex-wrap: wrap;
-    /* gap: 100px; */
+    gap: 100px;
+  }
+
+  .project {
+    max-width: 500px;
   }
 
   .project-page-wrapper h1 {
@@ -292,7 +296,7 @@ header {
     width: 70%;
     margin: 0 auto;
     margin-bottom: 30px;
-    font-size: 24px;
+    font-size: 25px;
   }
 }
 
