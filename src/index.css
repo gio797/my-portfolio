@@ -11,13 +11,13 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 28px;
 }
 
 p {
   color: #626269;
-  font-size: 22px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 li {
@@ -65,7 +65,7 @@ header {
 
 .menu-items a {
   color: #fafafa;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -77,7 +77,7 @@ header {
 
 @media only screen and (min-width: 900px) {
   header {
-    padding: 40px;
+    padding: 40px 100px;
   }
   .menu-items {
     position: static;
@@ -112,7 +112,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 20px;
+  gap: 25px;
   /* align-items: center; */
 }
 
@@ -141,6 +141,7 @@ header {
 
 .contact-text {
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .name-span {
@@ -153,10 +154,10 @@ header {
   content: "";
   display: block;
   width: 100%;
-  height: 30px;
+  height: 20px;
   background: #ffe600;
-  margin-top: -25px;
-  margin-left: 235px;
+  margin-top: -20px;
+  margin-left: 165px;
   z-index: -1;
 }
 
@@ -166,22 +167,29 @@ header {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding-inline: 40px;
+    padding-inline: 60px;
   }
+
+  .home-image-container {
+    flex: 1;
+  }
+
   .home-hero-container {
+    flex: 1;
     margin-top: 0;
     justify-content: space-between;
     gap: 20px;
-    max-width: 600px;
+    /* max-width: 600px; */
   }
 
   .home-image-container img {
-    min-width: 400px;
-    max-width: 600px;
+    /* min-width: 400px;
+    max-width: 600px; */
+    /* width: 100%; */
   }
 
   p {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 
@@ -201,9 +209,9 @@ header {
 }
 
 .project-page-wrapper > p {
-  font-size: 28px;
+  font-size: 22px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .project-wrapper {
@@ -213,11 +221,12 @@ header {
   align-items: center;
   gap: 30px;
   flex: 1;
+  margin-bottom: 40px;
 }
 
 .project {
   display: flex;
-  gap: 10px;
+  gap: 25px;
   flex-direction: column;
   max-width: 400px;
 }
@@ -262,10 +271,10 @@ header {
   content: "";
   display: block;
   width: 100%;
-  height: 30px;
+  height: 20px;
   background: #ffe600;
-  margin-top: -25px;
-  margin-left: 12px;
+  margin-top: -20px;
+  margin-left: 5px;
 }
 
 @media only screen and (min-width: 900px) {
@@ -278,7 +287,7 @@ header {
     max-width: 1000px;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 100px;
+    /* gap: 100px; */
   }
 
   .project-page-wrapper h1 {
@@ -286,7 +295,10 @@ header {
   }
 
   .project-page-wrapper > p {
+    width: 70%;
+    margin: 0 auto;
     margin-bottom: 30px;
+    font-size: 24px;
   }
 }
 
@@ -312,4 +324,9 @@ header {
   text-transform: uppercase;
   display: flex;
   gap: 10px;
+}
+
+.footer-container a,
+h3 {
+  font-size: 16px;
 }
